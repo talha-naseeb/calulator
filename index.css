@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+
+.layout {
+  width: 230px;
+  border: 2px solid;
+  border-radius: 30px;
+  padding-bottom: 16px;
+  background-color: rgb(43, 41, 41);
+  margin: 0 auto; /* Center the layout horizontally on all screens */
+}
+
+.h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(246, 235, 235);
+}
+
+.calculator {
+  text-align: center;
+}
+
+.input {
+  margin: 15px;
+  padding: 6px;
+  width: 80%; 
+  font-size: 25px;
+  border: 2px solid rgb(97, 86, 86);
+  border-radius: 20px;
+  text-align: right;
+  background-color: black;
+  color: aliceblue;
+}
+
+.button1,
+.button2,
+.button {
+  cursor: pointer;
+  font-size: 18px;
+  border: 2px solid;
+  border-radius: 26px;
+  padding: 10px;
+  width: 42px;
+  background-color: rgb(65, 62, 62);
+}
+
+.button2 {
+  background-color: orange;
+  width: 45px; /* Adjust button width as needed for small screens */
+}
+
+.button {
+  color: rgb(237, 241, 245);
+  border: 2px solid rgb(74, 72, 72);
+  background-color: rgb(46, 42, 42);
+}
+
+.table {
+  padding: 2px;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+@media (min-width: 400px) {
+  .button1,
+  .button2,
+  .button {
+    width: 40px;
+  }
+}
+
+
